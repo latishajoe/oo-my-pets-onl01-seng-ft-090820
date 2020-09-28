@@ -7,7 +7,7 @@ class Owner
     say_species()
   end
 
-  def na
+
 
 
 
