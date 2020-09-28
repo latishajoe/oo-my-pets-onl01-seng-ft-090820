@@ -7,23 +7,23 @@ class Owner
   def initialize(name, species)
     @name = name
     @species = species
-    @@all << self 
+    @@all << self
     @@count += 1
   end
 
   def self.all
     @@all
-  end 
+  end
 
   def say_species(species)
     say "I am #{species}"
-  end 
+  end
 
-  def count.all 
-    @@count 
-  end 
-    
-    
+  def count.all
+    @@count
+  end
+
+
 
 
 
