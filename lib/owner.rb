@@ -1,3 +1,16 @@
 class Owner
-  # code goes here
+  attr_reader :name, :species
+
+  def initialize(name, species)
+    @name = name
+    @species = species
+    say_species()
+  end
+
+  def na
+
+
+
+
+
 end
